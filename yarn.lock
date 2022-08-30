@@ -6273,7 +6273,7 @@
     "import-local" "^3.0.2"
     "jest-cli" "^27.5.1"
 
-"js-base64@^2.4.3":
+"js-base64@^2.4.3", "js-base64@^2.4.9":
   "integrity" "sha512-pZe//GGmwJndub7ZghVHz7vjb2LgC1m8B07Au3eYqeqv9emhESByMXxaEgkUkEqJe87oBbSniGYoQNIBklc7IQ=="
   "resolved" "https://registry.npmjs.org/js-base64/-/js-base64-2.6.4.tgz"
   "version" "2.6.4"
@@ -8654,6 +8654,14 @@
   dependencies:
     "js-base64" "^2.4.3"
     "source-map" "^0.7.1"
+
+"scss-tokenizer@^0.4.3":
+  "integrity" "sha512-raKLgf1LI5QMQnG+RxHz6oK0sL3x3I4FN2UDLqgLOGO8hodECNnNh5BXn7fAyBxrA8zVzdQizQ6XjNJQ+uBwMw=="
+  "resolved" "https://registry.npmjs.org/scss-tokenizer/-/scss-tokenizer-0.4.3.tgz"
+  "version" "0.4.3"
+  dependencies:
+    "js-base64" "^2.4.9"
+    "source-map" "^0.7.3"
 
 "select-hose@^2.0.0":
   "integrity" "sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg=="
