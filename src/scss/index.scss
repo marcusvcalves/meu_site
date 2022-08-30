@@ -6,6 +6,10 @@ body {
 
 }
 // NAVBAR
+#logo{
+    width: 10%;
+    height:10%;
+}
 .navbar {
     transition: all 0.4s;
 }
@@ -39,17 +43,14 @@ body {
     text-decoration: none;
 }
 
-.navbar.active .navbar-brand {
+.nav-item :active {
     color: #555;
 }
 
 @media (max-width: 991.98px) {
-    .navbar {
-        background: #fff;
-    }
-
-    .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
+    #logo{
+        width: 25%;
+        height:25%;
     }
 }
 .navbarColor{
@@ -95,16 +96,28 @@ body {
   }
 
   // SOBRE MIM
+  #sobreMimH2{
+    text-align: center;
+    padding-bottom: 5%;
+  }
 .sobreMimContent{
     color:$secondary;
     background: $primary;
-    width:100%;
+    padding-top:5%;
     display:flex;
-    align-items: center;
     flex-direction: column;
-    text-align: center;
-    padding-top:10%;
+    align-items: center;
     
+}
+.sobreMimText{
+    padding-top:5%;
+}
+#imgAvatar{
+    border-radius: 50%;
+    width:375px;
+    height:375px;
+    margin:auto;
+
 }
 // CONTATO
 .contatoh2{
@@ -126,5 +139,5 @@ body {
     display:flex;
 }
 #email{
-    padding-left:7.5%;
+    padding-left:5%;
 }

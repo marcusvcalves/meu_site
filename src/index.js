@@ -14,10 +14,21 @@ ReactDOM.render(
   </>,
   document.getElementById("root")
 );
-var nav = document.querySelector("nav");
+const nav = document.querySelector("nav");
+const navHeight = nav.offsetTop;
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
 
 window.addEventListener("scroll", function () {
-  if (window.pageYOffset > 100) {
+  if (window.pageYOffset > navHeight) {
     nav.classList.add("navbarColor", "shadow");
   } else {
     nav.classList.remove("navbarColor", "shadow");
