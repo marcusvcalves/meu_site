@@ -12,7 +12,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://marcusvcalves.github.io/"
+    "homepage": "https://marcusvcalves.github.io/marcusvcalves-26162573c7a9eb6918a6cf175180d1957423ec91"
   },
   "scripts": {
    "predeploy": "npm run build",
@@ -21,6 +21,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
