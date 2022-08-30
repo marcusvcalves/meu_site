@@ -1,1 +1,1 @@
-Site feito usando Scss, Bootstrap, React
+Site feito usando SCSS, Bootstrap, React
