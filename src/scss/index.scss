@@ -52,6 +52,7 @@ body {
         width: 25%;
         height:25%;
     }
+
 }
 .navbarColor{
     background-color:$secondary;
@@ -116,6 +117,15 @@ body {
     width:375px;
     height:375px;
     margin:auto;
+
+}
+#htmlLogo, #reactLogo, #bootstrapLogo{
+    width:25%;
+}
+.sobreMimImg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 }
 // CONTATO

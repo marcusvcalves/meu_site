@@ -1,4 +1,7 @@
 import img from "../img/avatar.jpg";
+import htmlLogo from "../img/htmlLogo.png";
+import reactLogo from "../img/reactLogo.png";
+import bootstrapLogo from "../img/bootstrapLogo.png";
 export default () => (
   <>
     <section className="sobreMim" id="SobreMim">
@@ -19,6 +22,11 @@ export default () => (
             tecnologias que já utilizei são: HTML/CSS, Bootstrap, Scss,
             JavaScript, React, C#/.NET, Python, MySql.
           </p>
+        </div>
+        <div className="sobreMimImg container">
+          <img src={htmlLogo} alt="" id="htmlLogo" />
+          <img src={bootstrapLogo} alt="" id="bootstrapLogo" />
+          <img src={reactLogo} alt="" id="reactLogo" />
         </div>
       </div>
     </section>
