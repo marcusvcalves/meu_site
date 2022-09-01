@@ -6,7 +6,7 @@ import insta from "../img/insta.png";
 
 export default () => (
   <>
-    <section className="contato" id="Contato">
+    <section className="contato container" id="Contato">
       <h2 className="contatoh2">CONTATO</h2>
       <div className="contatoContainer">
         <div className="contatoItem">
