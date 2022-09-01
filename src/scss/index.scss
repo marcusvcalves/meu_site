@@ -59,8 +59,7 @@ body {
 // HERO IMAGE
 .hero {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    max-width: 100%;
 }
 .hero::before {
     content: "";
