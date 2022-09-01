@@ -1,5 +1,4 @@
 import celular from "../img/celular.png";
-import email from "../img/email.png";
 import linkedin from "../img/linkedin.png";
 import github from "../img/github.png";
 import insta from "../img/insta.png";
@@ -16,12 +15,6 @@ export default () => (
           >
             <img src={celular} alt="" height="30px" width="30px" />
           </a>
-        </div>
-        <div className="contatoItem" id="emailBox">
-          <a>
-            <img src={email} alt="" height="30px" width="30px" />
-          </a>
-          <p id="email">marcuscarvalho333@gmail.com</p>
         </div>
         <div className="contatoItem">
           <a
