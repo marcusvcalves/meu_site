@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meu_site/static/css/main.36a3fb4a.css",
-    "main.js": "/meu_site/static/js/main.7b39e930.js",
+    "main.css": "/meu_site/static/css/main.914e68ed.css",
+    "main.js": "/meu_site/static/js/main.95c06e3e.js",
     "static/media/hero_img.png": "/meu_site/static/media/hero_img.290782f9b4131f766c7a.png",
     "static/media/avatar.jpg": "/meu_site/static/media/avatar.0077848503078e31726c.jpg",
     "static/media/insta.png": "/meu_site/static/media/insta.623656f837d3bfd6aa19.png",
@@ -11,11 +11,11 @@
     "static/media/github.png": "/meu_site/static/media/github.297457034d04fd35bd04.png",
     "static/media/celular.png": "/meu_site/static/media/celular.c632db7081a1e7d1d3e9.png",
     "index.html": "/meu_site/index.html",
-    "main.36a3fb4a.css.map": "/meu_site/static/css/main.36a3fb4a.css.map",
-    "main.7b39e930.js.map": "/meu_site/static/js/main.7b39e930.js.map"
+    "main.914e68ed.css.map": "/meu_site/static/css/main.914e68ed.css.map",
+    "main.95c06e3e.js.map": "/meu_site/static/js/main.95c06e3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.36a3fb4a.css",
-    "static/js/main.7b39e930.js"
+    "static/css/main.914e68ed.css",
+    "static/js/main.95c06e3e.js"
   ]
 }
