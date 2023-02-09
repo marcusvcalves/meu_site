@@ -10,7 +10,7 @@ export default () => (
         <img src={img} alt="" id="imgAvatar" />
         <div className="sobreMimText">
           <p>
-            Tenho 23 anos, sou de Maceió, atualmente estou cursando 8º período
+            Tenho 23 anos, sou de Maceió, atualmente estou cursando 9º período
             de Ciência da Computação, tenho um Inglês avançado e estou em busca
             da minha primeira experiência profissional como desenvolvedor, sou
             uma pessoa tranquila e tenho bom relacionamento interpessoal, sou
