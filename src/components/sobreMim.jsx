@@ -20,7 +20,7 @@ export default () => (
             Sou bem curioso e gosto de aprender novas coisas, então não
             reclamaria caso precisasse aprender algo novo, mas as principais
             tecnologias que já utilizei são: HTML/CSS, Bootstrap, Scss,
-            JavaScript, React, C#/.NET, Django, MySql.
+            JavaScript, React, C#/.NET, Python (Django), MySql.
           </p>
         </div>
         <div className="sobreMimImg container">
