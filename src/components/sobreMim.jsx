@@ -13,8 +13,7 @@ export default () => (
             Tenho 23 anos, sou de Maceió, atualmente estou cursando 9º período
             de Ciência da Computação, tenho um Inglês avançado e estou em busca
             da minha primeira experiência profissional como desenvolvedor, sou
-            uma pessoa tranquila e tenho bom relacionamento interpessoal, sou
-            uma pessoa fácil de lidar.
+            uma pessoa tranquila e tenho bom relacionamento interpessoal.
           </p>
           <p>
             Sou bem curioso e gosto de aprender novas coisas, então não
